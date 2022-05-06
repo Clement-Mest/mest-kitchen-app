@@ -1,17 +1,27 @@
-# mest_kitchen_app
+# MEST KITCHEN APP: FRONTEND
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The MEST Kitchen App now has its own Slack channel for all communications.
 
-A few resources to get you started if this is your first Flutter project:
+We're to join the channel where all app announcements will be made, as covered in class today.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To access the channel, use this link
+(https://join.slack.com/t/mestkitchenapp/shared_invite/zt-18h5v1zjq-b1tD4HIa3GbHWoHOkRZ8hw) and your meltwater email address (@meltwater.org) as your primary address.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# frontend for mest kitchen app
+About the Channel
+There are 4 communication channels. Help, General, Guidelines and Team Lead
+
+1. #general: This will be the primary channel for all app-related announcements. 
+
+2. #help: This channel will be used exclusively for app-related queries and help.
+
+3. #guidelines: The project's guidelines and instructions will be posted here to help us understand what we need to do at each stage.
+
+4. #team-leads: All team leads will join this channel for meetings and discussions
+
+Let me know if you have any questions or concerns.
+
+Thanks 
+Team 1
