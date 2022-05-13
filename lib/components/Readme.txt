@@ -1,1 +1,1 @@
-This folder contains all the components and assets needed for the project
+This folder contains categories of all the screens needed for this project
