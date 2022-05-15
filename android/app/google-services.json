@@ -29,6 +29,13 @@
             {
               "client_id": "164501164196-e04q1ocnpq6bnko2d3lsj8s8tko4h3iu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "164501164196-tkmb8kajulpubisqr7uleedpgsvip419.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mestKitchenApp"
+              }
             }
           ]
         }
