@@ -53,21 +53,23 @@ class _SettingsPageState extends State<SettingsPage>
           //Top is where the
           Expanded(
               child: Column(
-
                   //image and button under goes here
                   )),
-          Container(
-            decoration: new BoxDecoration(color: Colors.grey),
-            child: new TabBar(
-              controller: _controller,
-              tabs: [
-                new Tab(
-                  text: "Profile",
-                ),
-                new Tab(
-                  text: 'Settings',
-                ),
-              ],
+          Padding(
+            padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
+            child: Container(
+              decoration: new BoxDecoration(color: Colors.grey),
+              child: new TabBar(
+                controller: _controller,
+                tabs: [
+                  new Tab(
+                    text: "Profile",
+                  ),
+                  new Tab(
+                    text: 'Settings',
+                  ),
+                ],
+              ),
             ),
           ),
           new Expanded(
@@ -78,20 +80,28 @@ class _SettingsPageState extends State<SettingsPage>
                 Container(
                     decoration: new BoxDecoration(
                         color: Colors.grey,
-                        borderRadius: BorderRadius.all(Radius.circular(20))),
+                        borderRadius: new BorderRadius.only(
+                          topLeft: const Radius.circular(20.0),
+                          topRight: const Radius.circular(20.0),
+                        )),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        //The containers for profile go in here
+                        //The widgets for profile go in here
                         Text("This is a Profile View")
                       ],
                     )),
                 Container(
-                    decoration: new BoxDecoration(color: Colors.grey),
+                    decoration: new BoxDecoration(
+                        color: Colors.grey,
+                        borderRadius: new BorderRadius.only(
+                          topLeft: const Radius.circular(20.0),
+                          topRight: const Radius.circular(20.0),
+                        )),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        //The containers for profile go in here
+                        //The widgets for profile go in here
                         Text("This is a Settings View")
                       ],
                     )),
