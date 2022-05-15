@@ -79,11 +79,11 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    # - family: K2D
-    #   fonts:
-    #     - asset: fonts/K2D-Regular.ttf
-    #     - asset: fonts/K2D-Light.ttf
-    #     - asset: fonts/K2D-Medium
+    - family: K2D
+      fonts:
+        - asset: fonts/K2D-Regular.ttf
+        - asset: fonts/K2D-Light.ttf
+        - asset: fonts/K2D-Medium
         
     #       # style: italic
     - family: Inter
