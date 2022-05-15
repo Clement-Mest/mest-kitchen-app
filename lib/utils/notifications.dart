@@ -12,7 +12,22 @@ class Notifications {
       print(e);
     }
   }
-  authorizeAppNotification() async {
-    // do something
+
+  
+  //To authorize notification clients for iOS
+   authorizeAppNotification() async {
+    FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+    NotificationSettings settings = await messaging.requestPermission(
+      alert: true,
+      announcement: false,
+      badge: true,
+      carPlay: false,
+      criticalAlert: false,
+      provisional: false,
+      sound: true,
+    );
+
+    print('User granted permission: ${settings.authorizationStatus}');
   }
 }
