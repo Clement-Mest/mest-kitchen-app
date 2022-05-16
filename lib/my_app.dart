@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mest_kitchen_app/screens/tab_navigation_widget.dart';
+import 'package:mest_kitchen_app/screens/onboarding/create_account.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TabNavigationWidget(),
+      home: const CreateAccount(),
     );
   }
 }
