@@ -80,7 +80,7 @@ flutter:
       fonts:
         - asset: fonts/K2D-Regular.ttf
         - asset: fonts/K2D-Light.ttf
-        - asset: fonts/K2D-Medium
+        - asset: fonts/K2D-Medium.ttf
         
           # style: italic
     - family: Inter
