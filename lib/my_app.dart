@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mest_kitchen_app/screens/onboarding/create_account.dart';
+import 'package:mest_kitchen_app/screens/onboarding/onboarding.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -8,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const CreateAccount(),
-    );
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        // home: const CreateAccount(),
+        home:  CreateAccount());
   }
 }
